@@ -1729,6 +1729,16 @@ section {
   -webkit-line-clamp: 4;
   -webkit-box-orient: vertical;
 }
+
+.activity .desc-pc{
+  height: 18rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+}
+
 .activity .status{
   position: absolute;
   bottom: 2rem;
